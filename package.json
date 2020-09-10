@@ -1,0 +1,26 @@
+{
+  "name": "ramayan-quote-api",
+  "version": "0.0.1",
+  "description": "\"stores some quotes in a json file and reders them in browser.",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/app.js",
+    "dev":  "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Ramayan-Quote-Api"
+  },
+  "keywords": [
+    "Ramayan",
+    "Shri",
+    "Ram"
+  ],
+  "author": "HArshit YAdav",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1"
+  }
+}

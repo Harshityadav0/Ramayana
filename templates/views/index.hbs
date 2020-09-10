@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramayan Quote App</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/img/download.jpeg">
+</head>
+<body>
+   <div class="main-content"> {{>header}}
+    <p id="message1"></p>
+    <span id="message2"></span>
+   <hr>
+
+    <form>
+        {{!-- <input type="text" placeholder="Quotee"> --}}
+        <select id="why1">
+            <option value="Rama">Rama</option>
+             <option value="Hanuman">Hanuman</option>
+            <option value="Jatayu">Jatayu</option>
+            <option value="Kausalya">Kausalya</option>
+             <option value="Angad">Angad</option>
+            <option value="Seeta">Seeta</option>
+            <option value="Lakshmana">Lakshmana</option>
+            <option value="Sugreev">Sugreev</option>
+            <option value="Ravan">Ravan</option>
+            <option value="Vibhishana">Vibhisana</option>
+        </select>
+        <button id="generate">Generate</button>
+    </form><br><br>
+    <button id="random">Random Quote</button></div>
+    {{>footer}}
+    <script src="/js/index.js"></script>
+</body>
+</html>
